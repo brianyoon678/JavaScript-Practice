@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        let product ={
+            name: 'socks',
+            price: 1090
+        };
+
+        console.log(product);
+
+        console.log(JSON.stringify(product));
+        console.log(typeof JSON.stringify(product));
+        const jsonString = JSON.stringify(product);
+        JSON.parse(jsonString);
+        console.log(JSON.parse(jsonString));
+
+        localStorage.setItem('product', jsonString);
+        console.log("local storage: " + localStorage.getItem('product'));
+        localStorage.removeItem('product');
+        if(localStorage.getItem('product') == null){
+            product = {
+                 name: '',
+                price: 0
+            };
+           
+        }
+        console.log("local storage: " + localStorage.getItem('product'));
+        */
+        console.log('hello'.length);
+        console.log('hello'.toUpperCase());
+        // auto boxes the strings into objects 
+
+        const object1 = {
+            message: 'Good job!'
+        };
+        const object2 = object1; 
+        // objects are only references and doesn't get affected by the reference 
+        // this copies only the reference 
+
+        const object3 = {
+            message: 'Good job!',
+        };
+
+        console.log(object1 === object2);
+
+        const object4 = {
+            message: 'Good job!', 
+            price: 799
+        }
+
+        const { message, price } = object4;
+        console.log(message);
+        console.log(price);
+
+        const object5 = {
+            message, 
+
+            method: function function1() {
+                console.log('method');
+            },
+            // shorthand method
+            method(){
+                console.log('method');
+            }
+        };
+        console.log(object5);
+        object5.method();
+
+    
+    
+    </script>
+</body>
+</html>

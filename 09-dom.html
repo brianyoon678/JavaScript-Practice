@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOMS</title>
+</head>
+<body>
+    <button>hello</button>
+    <button class="js-button"> Second Button</button>
+    <script>
+        // document object represents and models the webpage
+
+        document.querySelector('button');
+        console.log(document.querySelector('button').innerHTML);
+        document.querySelector('button').innerHTML = 'Changed';
+
+        const buttonElement = document.querySelector('.js-button');
+
+        /*
+        console.log(document.title);
+        document.title = 'Changed';
+        
+        document.body.innerHTML = 'hello';
+        document.title = 'Good Job';
+        
+
+        // we can have html elements inside javascript
+        console.log(document.body);
+        console.log(typeof document.body);
+        
+        // document.body acquires everything inside the body of the html tag
+        console.log(document.body.innerHTML);
+        document.body.innerHTML = '<button>Good Job</button>';
+        */
+    </script>
+</body>
+</html>
