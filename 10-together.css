@@ -1,0 +1,51 @@
+.add_to_cart_button{
+    padding: 15px 40px;
+    font-size: 20px;
+    color: black;
+    background-color: yellow;
+    border-radius: 40px;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.uber_button_black{
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.uber_button_white{
+    border: none;
+    color: black;
+    background-color: rgb(230,230,230);
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+.gaming_button_unpressed{
+    border: none;
+    color: black;
+    background-color: rgb(230,230,230);
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.gaming_button_pressed{
+    border: none;
+    color: rgb(230,230,230);
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+}
